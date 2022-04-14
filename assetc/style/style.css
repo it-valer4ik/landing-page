@@ -46,14 +46,19 @@ p {
 }
 
 .button-id {
+    display: block;
+    margin: 0 auto;
     padding: 11px 22px;
+    width: 148px;
     color: var(--color-brown);
     border: 1px solid var(--color-brown);
     border-radius: 11px;
     font-size: 17px;
     text-decoration: none;
     text-transform: capitalize;
-
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 
