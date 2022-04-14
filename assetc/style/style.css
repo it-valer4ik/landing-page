@@ -19,7 +19,6 @@
 }
 
 .text-header {
-
     padding-top: 280px;
     display: block;
     text-align: center;
@@ -61,6 +60,10 @@ p {
     text-overflow: ellipsis;
 }
 
+.button-id:hover {
+    background-color: var(--color-brown);
+    color: var(--color-white);
+}
 
 
 .section1 {}
