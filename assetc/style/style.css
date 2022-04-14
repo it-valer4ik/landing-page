@@ -1,0 +1,84 @@
+:root {
+    --color-brown: #926239;
+    --color-white: whitesmoke;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 27px;
+}
+
+.pic-main {
+    background-image: url(./../images/background.jpg);
+    background-size: cover;
+    height: 720px;
+    background-position: 0%;
+}
+
+.text-header {
+
+    padding-top: 280px;
+    display: block;
+    text-align: center;
+    color: var(--color-brown);
+}
+
+article {
+    display: block;
+    text-align: center;
+
+
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+p {
+    padding: 20px;
+    border-top: 35px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.button-id {
+    padding: 11px 22px;
+    color: var(--color-brown);
+    border: 1px solid var(--color-brown);
+    border-radius: 11px;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+
+
+.section1 {}
+
+.brown {
+    background-color: var(--color-brown);
+    color: var(--color-white);
+}
+
+.white {
+    background-color: var(--color-white);
+    color: var(--color-brown);
+}
+
+section.inline-box {
+    display: block;
+
+}
+
+.box1,
+.box2,
+.box3 {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+}
