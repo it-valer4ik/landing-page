@@ -1,6 +1,7 @@
 :root {
     --color-brown: #926239;
     --color-white: whitesmoke;
+    --width-size: 33%;
 }
 
 * {
@@ -14,7 +15,7 @@
 .pic-main {
     background-image: url(./../images/background.jpg);
     background-size: cover;
-    height: 720px;
+    height: 100vh;
     background-position: 0%;
 }
 
@@ -35,6 +36,7 @@ article {
 h1 {
     font-size: 50px;
     text-transform: capitalize;
+    display: inline;
 }
 
 p {
@@ -55,6 +57,9 @@ p {
     font-size: 17px;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+.text-over {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -64,9 +69,6 @@ p {
     background-color: var(--color-brown);
     color: var(--color-white);
 }
-
-
-.section1 {}
 
 .brown {
     background-color: var(--color-brown);
@@ -80,13 +82,14 @@ p {
 
 section.inline-box {
     display: block;
-
+    width: 100vw;
 }
 
 .box1,
 .box2,
 .box3 {
     display: inline-block;
-    width: 33%;
+    width: var(--width-size);
     text-align: left;
+    vertical-align: top;
 }
